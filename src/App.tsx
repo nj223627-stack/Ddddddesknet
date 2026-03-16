@@ -393,7 +393,6 @@ declare global {
 }
 
 import Logo from "./components/Logo";
-import WorldMap from "./components/WorldMap";
 
 const Navbar = ({ 
   onLoginClick, 
