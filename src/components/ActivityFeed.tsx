@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db, collection, query, orderBy, limit, onSnapshot, where, handleFirestoreError, OperationType } from '../firebase';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { HiClock as Clock, HiTicket as Ticket, HiUserPlus as UserPlus, HiChatBubbleLeftRight as MessageSquare } from 'react-icons/hi2';
 
 interface Activity {

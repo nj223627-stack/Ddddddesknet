@@ -1,4 +1,4 @@
-import { motion, AnimatePresence, useInView, animate } from "motion/react";
+import { motion, AnimatePresence, useInView, animate } from "framer-motion";
 import { 
   HiArrowRight as ArrowRight, 
   HiPlay as Play, 

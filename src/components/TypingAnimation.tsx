@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 export const TypingAnimation = ({ text, className, delay = 0, speed = 0.04 }: { text: string, className?: string, delay?: number, speed?: number }) => {
   const characters = text.split("");

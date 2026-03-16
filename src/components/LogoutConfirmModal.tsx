@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { HiArrowLeftOnRectangle as LogOut, HiXMark as X } from 'react-icons/hi2';
 
 interface LogoutConfirmModalProps {

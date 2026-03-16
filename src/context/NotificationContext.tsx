@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import { db, collection, query, where, onSnapshot, orderBy, limit } from '../firebase';
-import { AnimatePresence, motion } from 'motion/react';
+import { AnimatePresence, motion } from 'framer-motion';
 import { HiBell as Bell, HiChatBubbleLeftRight as MessageSquare, HiTicket as Ticket, HiXMark as X } from 'react-icons/hi2';
 
 interface Notification {
